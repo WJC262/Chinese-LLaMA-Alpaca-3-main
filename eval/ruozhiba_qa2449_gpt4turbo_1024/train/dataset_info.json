@@ -1,0 +1,48 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 24705,
+  "description": "",
+  "download_checksums": {
+    "D:/PycharmProject/2024/Chinese-LLaMA-Alpaca-3-main/eval/ruozhiba_qa2449_gpt4turbo.json": {
+      "num_bytes": 26650,
+      "checksum": null
+    }
+  },
+  "download_size": 26650,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 51355,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 24705,
+      "num_examples": 36,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
